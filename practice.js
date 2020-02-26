@@ -43,14 +43,15 @@ let favoriteThings = {
 
 //Code here
 favoriteThings.brand = "Mazda";
-favoriteThings.car = "MX-5 Miata"
+favoriteThings.car = "MX-5 Miata";
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 ////////// PROBLEM 3 //////////
 
 /*
@@ -62,13 +63,17 @@ favoriteThings.car = "MX-5 Miata"
 */
 
 //Code here
-
+let backPack = {};
+let item = "firstPocket";
+backPack[item] = 'chapstick';
+backPack.color = "black";
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(JSON.stringify(backPack));
+console.log(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
