@@ -142,7 +142,15 @@ methodCollection.logHello();
 */
 
 //Code Here
-
+function makePerson(name,birthday,ssn) {
+  // in real life a good developer would make sure
+  // that the arguments were valid
+  return {
+    name,
+    birthday,
+    ssn
+  }
+}
 ////////// PROBLEM 7 //////////
 
 /*
