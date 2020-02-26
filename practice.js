@@ -28,14 +28,22 @@ alert(me.name);
 */
 
 //Code here
-
+let favoriteThings = {
+  band: "David Crowder",
+  food: "steak",
+  person: "My girlfriend",
+  book: "Maximum Ride: The Angel Experiment",
+  movie: "Iron Man 3",
+  holiday: "Christmas"
+};
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings.brand = "Mazda";
+favoriteThings.car = "MX-5 Miata"
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
